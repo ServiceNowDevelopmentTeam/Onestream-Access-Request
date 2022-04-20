@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate there is at least one record in 'sc_request' matching query:
+Sys ID = {{Step 7: Order a Catalog Item (SP).Record}}
+and Stage = Closed Complete
+With a failure timeout of 15 Seconds</description>
+        <display_name>Record Query</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>20</order>
+        <snapshot/>
+        <step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-19 20:08:43</sys_created_on>
+        <sys_id>30446cd81b4349508c5143f3cc4bcbf2</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope>
+        <sys_update_name>sys_atf_step_30446cd81b4349508c5143f3cc4bcbf2</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-20 16:10:16</sys_updated_on>
+        <table>sc_request</table>
+        <test display_value="TC - 283 - Request - OneStream Approval - IT">94b6cf481b0fcd1062e50ed2cd4bcb9d</test>
+        <timeout>1970-01-01 00:00:15</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=30446cd81b4349508c5143f3cc4bcbf2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>30446cd81b4349508c5143f3cc4bcbf2</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-19 20:08:43</sys_created_on>
+        <sys_id>16546cd81b4349508c5143f3cc4bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-19 20:08:43</sys_updated_on>
+        <value>records_match_query</value>
+        <variable display_value="Assert type">b86c0427531000109e02ddeeff7b1227</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>30446cd81b4349508c5143f3cc4bcbf2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-19 20:08:43</sys_created_on>
+        <sys_id>1a546cd81b4349508c5143f3cc4bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-19 20:08:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Enforce security">02fb0027531000109e02ddeeff7b120b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>30446cd81b4349508c5143f3cc4bcbf2</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-19 20:08:43</sys_created_on>
+        <sys_id>9e546cd81b4349508c5143f3cc4bcb2e</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-20 16:10:16</sys_updated_on>
+        <value>sys_id={{step['54ae84541bcf09508c5143f3cc4bcb01'].record_id}}^stage=closed_complete^EQ</value>
+        <variable display_value="Conditions">915990ab531000109e02ddeeff7b12f8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>30446cd81b4349508c5143f3cc4bcbf2</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-19 20:08:43</sys_created_on>
+        <sys_id>da546cd81b4349508c5143f3cc4bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-19 20:08:43</sys_updated_on>
+        <value>sc_request</value>
+        <variable display_value="Table">78b8d86b531000109e02ddeeff7b12f3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=30446cd81b4349508c5143f3cc4bcbf2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enforce_security</field>
+        <id>30446cd81b4349508c5143f3cc4bcbf2</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-19 20:08:43</sys_created_on>
+        <sys_id>de546cd81b4349508c5143f3cc4bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-19 20:08:43</sys_updated_on>
+        <table>var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>30446cd81b4349508c5143f3cc4bcbf2</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-19 20:08:43</sys_created_on>
+        <sys_id>92546cd81b4349508c5143f3cc4bcb2e</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-20 16:10:16</sys_updated_on>
+        <table>var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7</table>
+        <value>sys_id={{step['54ae84541bcf09508c5143f3cc4bcb01'].record_id}}^stage=closed_complete^EQ</value>
+    </sys_element_mapping>
+</record_update>

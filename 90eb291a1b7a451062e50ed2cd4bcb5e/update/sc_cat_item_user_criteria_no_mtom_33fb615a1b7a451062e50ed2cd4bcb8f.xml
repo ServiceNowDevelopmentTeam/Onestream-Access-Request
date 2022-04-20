@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="OneStream Access Request">03fb2d1a1b7a451062e50ed2cd4bcb6a</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-13 20:13:55</sys_created_on>
+        <sys_id>33fb615a1b7a451062e50ed2cd4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of Access Request.SNC External</sys_name>
+        <sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_33fb615a1b7a451062e50ed2cd4bcb8f</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-13 20:13:55</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+</record_update>

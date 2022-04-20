@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Access Type">06eca99a1b7a451062e50ed2cd4bcb34</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-13 20:18:54</sys_created_on>
+        <sys_id>391dad9a1b7a451062e50ed2cd4bcba7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Access</sys_name>
+        <sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope>
+        <sys_update_name>question_choice_391dad9a1b7a451062e50ed2cd4bcba7</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-13 20:18:54</sys_updated_on>
+        <text>New Access</text>
+        <value>New Access</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=391dad9a1b7a451062e50ed2cd4bcba7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>question_choice_391dad9a1b7a451062e50ed2cd4bcba7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>100</order><published_ref/><question display_value="Access Type">06eca99a1b7a451062e50ed2cd4bcb34</question><sys_class_name>question_choice</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2022-04-13 20:18:54</sys_created_on><sys_id>391dad9a1b7a451062e50ed2cd4bcba7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Access</sys_name><sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package><sys_policy/><sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope><sys_update_name>question_choice_391dad9a1b7a451062e50ed2cd4bcba7</sys_update_name><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2022-04-13 20:18:54</sys_updated_on><text>New Access</text><value>New Access</value></question_choice><fx_price action="delete_multiple" query="id=391dad9a1b7a451062e50ed2cd4bcba7"/></record_update>]]></payload>
+        <payload_hash>1872752737</payload_hash>
+        <record_name>New Access</record_name>
+        <reverted_from/>
+        <source>d4ebe91a1b7a451062e50ed2cd4bcb70</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-13 20:18:54</sys_created_on>
+        <sys_id>b02de19a1b7a451062e50ed2cd4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180249435be0000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-13 20:18:54</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>b82de19a977a4510a65977a143e47bda</update_guid>
+        <update_guid_history>b82de19a977a4510a65977a143e47bda:1872752737</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="New Access">59ea96f71bf64d1062e50ed2cd4bcb2c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-18 15:29:43</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>1c50c996af9d487886f5d7cca6b9f749</sys_id>
+        <sys_metadata>391dad9a1b7a451062e50ed2cd4bcba7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Access</sys_name>
+        <sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope>
+        <sys_scope_delete display_value="">1da919f98d78464da8909a1c0182c449</sys_scope_delete>
+        <sys_update_name>question_choice_391dad9a1b7a451062e50ed2cd4bcba7</sys_update_name>
+        <sys_update_version display_value="question_choice_391dad9a1b7a451062e50ed2cd4bcba7">b02de19a1b7a451062e50ed2cd4bcbdb</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-18 15:29:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

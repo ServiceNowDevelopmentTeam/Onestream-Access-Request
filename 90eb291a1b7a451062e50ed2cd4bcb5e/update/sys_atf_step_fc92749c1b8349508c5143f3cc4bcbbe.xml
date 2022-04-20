@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Set Variable Values (SP)">490c8fcc1b0fcd1062e50ed2cd4bcbf1</copied_from>
+        <description>Answer the questions on the form as follows:
+Requested For = 
+and Employee Type = Employee
+and Access Type = Disable Access</description>
+        <display_name>Set Variable Values (SP)</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Fill in catalog item</notes>
+        <order>6</order>
+        <snapshot/>
+        <step_config display_value="Set Variable Values (SP)">2e4229b48703030070870cf888cb0b5c</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-19 21:10:52</sys_created_on>
+        <sys_id>fc92749c1b8349508c5143f3cc4bcbbe</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set Variable Values (SP)</sys_name>
+        <sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope>
+        <sys_update_name>sys_atf_step_fc92749c1b8349508c5143f3cc4bcbbe</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-19 21:14:21</sys_updated_on>
+        <table/>
+        <test display_value="TC - 285 - Request - OneStream Without Approval- IT">2892385c1b8349508c5143f3cc4bcb6f</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=fc92749c1b8349508c5143f3cc4bcbbe"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>fc92749c1b8349508c5143f3cc4bcbbe</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-19 21:10:52</sys_created_on>
+        <sys_id>3092749c1b8349508c5143f3cc4bcbc0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-19 21:14:21</sys_updated_on>
+        <value>IO:6680d3441ba274108c5143f3cc4bcb39={{step['ac92749c1b8349508c5143f3cc4bcb93'].user}}^IO:0ffb215a1b7a451062e50ed2cd4bcbcb=employee^IO:349917601b76345062e50ed2cd4bcb1b=0^EQ</value>
+        <variable display_value="Variable Values">3f3525f48703030070870cf888cb0b37</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>fc92749c1b8349508c5143f3cc4bcbbe</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-19 21:10:52</sys_created_on>
+        <sys_id>7c92749c1b8349508c5143f3cc4bcbbf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-19 21:10:52</sys_updated_on>
+        <value/>
+        <variable display_value="Multi-row Variable Set">2fba49d673142300688e0d573cf6a748</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>fc92749c1b8349508c5143f3cc4bcbbe</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-19 21:10:52</sys_created_on>
+        <sys_id>f092749c1b8349508c5143f3cc4bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-19 21:10:52</sys_updated_on>
+        <value>03fb2d1a1b7a451062e50ed2cd4bcb6a</value>
+        <variable display_value="Item">d164adb48703030070870cf888cb0b30</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fc92749c1b8349508c5143f3cc4bcbbe"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable_values</field>
+        <id>fc92749c1b8349508c5143f3cc4bcbbe</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-19 21:10:52</sys_created_on>
+        <sys_id>7892749c1b8349508c5143f3cc4bcbc0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-19 21:14:21</sys_updated_on>
+        <table>var__m_atf_input_variable_2e4229b48703030070870cf888cb0b5c</table>
+        <value>IO:6680d3441ba274108c5143f3cc4bcb39={{step['ac92749c1b8349508c5143f3cc4bcb93'].user}}^IO:0ffb215a1b7a451062e50ed2cd4bcbcb=employee^IO:349917601b76345062e50ed2cd4bcb1b=0^EQ</value>
+    </sys_element_mapping>
+</record_update>

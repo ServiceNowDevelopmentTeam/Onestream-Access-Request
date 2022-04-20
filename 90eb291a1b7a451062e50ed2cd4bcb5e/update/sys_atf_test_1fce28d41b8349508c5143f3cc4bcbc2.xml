@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="TC - 283 - Request - OneStream Approval - IT">94b6cf481b0fcd1062e50ed2cd4bcb9d</copied_from>
+        <description>Keywords: Onestream, Approval, Reject, Rejection, Access, Request&#13;
+Description: Validate onestream rejection process below.&#13;
+Before rejected&#13;
+	Approval = requested&#13;
+	State = Pending Approval&#13;
+	Assignment Group = Blank&#13;
+	Correct Short Description&#13;
+	No Task Generated&#13;
+&#13;
+After rejected&#13;
+	Approval =Rejected&#13;
+	State= Closed Incomplete&#13;
+	Assignment Group = Blank&#13;
+	Rejection Doc'd in History&#13;
+	Task(s) Not Generated&#13;
+	RITM Closed Incomplete&#13;
+	REQ Closed Incomplete</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>TC - 284 - Request - OneStream Rejection - IT</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-19 20:54:24</sys_created_on>
+        <sys_id>1fce28d41b8349508c5143f3cc4bcbc2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>TC - 284 - Request - OneStream Rejection - IT</sys_name>
+        <sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope>
+        <sys_update_name>sys_atf_test_1fce28d41b8349508c5143f3cc4bcbc2</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-19 21:10:32</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=1fce28d41b8349508c5143f3cc4bcbc2"/>
+</record_update>
