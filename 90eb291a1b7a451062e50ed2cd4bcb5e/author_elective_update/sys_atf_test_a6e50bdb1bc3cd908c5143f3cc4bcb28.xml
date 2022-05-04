@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="DELETE">
+        <active>true</active>
+        <copied_from display_value="TC - 283 - Request - OneStream Approval - IT">94b6cf481b0fcd1062e50ed2cd4bcb9d</copied_from>
+        <description>Keywords: Onestream, Approval, Approve, Access, Request&#13;
+Description: Validate onestream approval process below.&#13;
+Before approved&#13;
+	Approval = requested&#13;
+	State = Pending Approval&#13;
+	Assignment Group = Blank&#13;
+	Correct Short Description&#13;
+	No Task Generated&#13;
+&#13;
+After approved&#13;
+	Approval = Approved&#13;
+	State= Open&#13;
+	Assignment Group Populated&#13;
+	Approval Doc'd in History&#13;
+	Task(s) Generated&#13;
+&#13;
+Complete Tasks&#13;
+	RITM Approval = Approved&#13;
+	State= Open&#13;
+	Assignment Group Populated&#13;
+	Approval Doc'd in History&#13;
+	RITM Closed&#13;
+	REQ Closed</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>TC - 283 - Request - OneStream Approval - IT copy</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-29 15:36:23</sys_created_on>
+        <sys_id>a6e50bdb1bc3cd908c5143f3cc4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TC - 283 - Request - OneStream Approval - IT copy</sys_name>
+        <sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope>
+        <sys_update_name>sys_atf_test_a6e50bdb1bc3cd908c5143f3cc4bcb28</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-29 15:36:23</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="DELETE" query="document_key=a6e50bdb1bc3cd908c5143f3cc4bcb28"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sys_atf_test_a6e50bdb1bc3cd908c5143f3cc4bcb28</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="TC - 283 - Request - OneStream Approval - IT">94b6cf481b0fcd1062e50ed2cd4bcb9d</copied_from><description>Keywords: Onestream, Approval, Approve, Access, Request&#13;
+Description: Validate onestream approval process below.&#13;
+Before approved&#13;
+	Approval = requested&#13;
+	State = Pending Approval&#13;
+	Assignment Group = Blank&#13;
+	Correct Short Description&#13;
+	No Task Generated&#13;
+&#13;
+After approved&#13;
+	Approval = Approved&#13;
+	State= Open&#13;
+	Assignment Group Populated&#13;
+	Approval Doc'd in History&#13;
+	Task(s) Generated&#13;
+&#13;
+Complete Tasks&#13;
+	RITM Approval = Approved&#13;
+	State= Open&#13;
+	Assignment Group Populated&#13;
+	Approval Doc'd in History&#13;
+	RITM Closed&#13;
+	REQ Closed</description><enable_parameterized_testing>false</enable_parameterized_testing><name>TC - 283 - Request - OneStream Approval - IT copy</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2022-04-29 15:36:23</sys_created_on><sys_id>a6e50bdb1bc3cd908c5143f3cc4bcb28</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TC - 283 - Request - OneStream Approval - IT copy</sys_name><sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package><sys_policy/><sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope><sys_update_name>sys_atf_test_a6e50bdb1bc3cd908c5143f3cc4bcb28</sys_update_name><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2022-04-29 15:36:23</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=a6e50bdb1bc3cd908c5143f3cc4bcb28"/></record_update>]]></payload>
+        <payload_hash>-1547007655</payload_hash>
+        <record_name>TC - 283 - Request - OneStream Approval - IT copy</record_name>
+        <reverted_from/>
+        <source>b01541201bcb89508c5143f3cc4bcb4c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-29 15:36:23</sys_created_on>
+        <sys_id>6ae50bdb1bc3cd908c5143f3cc4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18075f74f350000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-29 15:36:23</sys_updated_on>
+        <type>Test</type>
+        <update_guid>62e50bdb1bc3cd905a6eb2be2c01b12c</update_guid>
+        <update_guid_history>62e50bdb1bc3cd905a6eb2be2c01b12c:-1547007655</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-29 15:36:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_test">sys_atf_test</sys_db_object>
+        <sys_id>39766925b7154d629173b9c21fea7f84</sys_id>
+        <sys_metadata>a6e50bdb1bc3cd908c5143f3cc4bcb28</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TC - 283 - Request - OneStream Approval - IT copy</sys_name>
+        <sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope>
+        <sys_scope_delete display_value="">1da919f98d78464da8909a1c0182c449</sys_scope_delete>
+        <sys_update_name>sys_atf_test_a6e50bdb1bc3cd908c5143f3cc4bcb28</sys_update_name>
+        <sys_update_version display_value="sys_atf_test_a6e50bdb1bc3cd908c5143f3cc4bcb28">6ae50bdb1bc3cd908c5143f3cc4bcb2c</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-29 15:36:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
