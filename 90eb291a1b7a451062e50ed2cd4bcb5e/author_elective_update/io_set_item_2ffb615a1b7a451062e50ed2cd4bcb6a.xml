@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>300</order>
+        <sc_cat_item display_value="Copy of Access Request">03fb2d1a1b7a451062e50ed2cd4bcb6a</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-13 20:13:54</sys_created_on>
+        <sys_id>2ffb615a1b7a451062e50ed2cd4bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requested Date.Copy of Access Request</sys_name>
+        <sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope>
+        <sys_update_name>io_set_item_2ffb615a1b7a451062e50ed2cd4bcb6a</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-13 20:13:54</sys_updated_on>
+        <variable_set display_value="Requested Date">94ec79e82f301010ca5dc886f699b62e</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>io_set_item_2ffb615a1b7a451062e50ed2cd4bcb6a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>300</order><sc_cat_item display_value="Copy of Access Request">03fb2d1a1b7a451062e50ed2cd4bcb6a</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>Terry.Lillo</sys_created_by><sys_created_on>2022-04-13 20:13:54</sys_created_on><sys_id>2ffb615a1b7a451062e50ed2cd4bcb6a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Requested Date.Copy of Access Request</sys_name><sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package><sys_policy/><sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope><sys_update_name>io_set_item_2ffb615a1b7a451062e50ed2cd4bcb6a</sys_update_name><sys_updated_by>Terry.Lillo</sys_updated_by><sys_updated_on>2022-04-13 20:13:54</sys_updated_on><variable_set display_value="Requested Date">94ec79e82f301010ca5dc886f699b62e</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-1457183919</payload_hash>
+        <record_name>03fb2d1a1b7a451062e50ed2cd4bcb6a</record_name>
+        <reverted_from/>
+        <source>d4ebe91a1b7a451062e50ed2cd4bcb70</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-13 20:13:54</sys_created_on>
+        <sys_id>23fb615a1b7a451062e50ed2cd4bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180248fa2030000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-13 20:13:54</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>2bfb615a927a45103f45983e2c5c546f</update_guid>
+        <update_guid_history>2bfb615a927a45103f45983e2c5c546f:-1457183919</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="OneStream Access Request">24d0810a1b33c5d062e50ed2cd4bcb9c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-06-01 15:29:34</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>17cad429e0494c0e80333bd3c6473041</sys_id>
+        <sys_metadata>2ffb615a1b7a451062e50ed2cd4bcb6a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Requested Date.Copy of Access Request</sys_name>
+        <sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope>
+        <sys_scope_delete display_value="">1da919f98d78464da8909a1c0182c449</sys_scope_delete>
+        <sys_update_name>io_set_item_2ffb615a1b7a451062e50ed2cd4bcb6a</sys_update_name>
+        <sys_update_version display_value="io_set_item_2ffb615a1b7a451062e50ed2cd4bcb6a">23fb615a1b7a451062e50ed2cd4bcb70</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-06-01 15:29:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

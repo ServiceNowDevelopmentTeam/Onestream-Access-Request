@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
         <catalog_item display_value="OneStream Access Request">03fb2d1a1b7a451062e50ed2cd4bcb6a</catalog_item>
-        <catalog_variable>IO:a3c89d9e1b836850e7004229bc4bcb12</catalog_variable>
+        <catalog_variable>IO:625af08e1bff85d062e50ed2cd4bcb77</catalog_variable>
         <cleared>false</cleared>
         <disabled>ignore</disabled>
         <field/>
@@ -9,20 +9,20 @@
         <order>100</order>
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-04-13 20:13:54</sys_created_on>
-        <sys_id>2bfb615a1b7a451062e50ed2cd4bcb3d</sys_id>
+        <sys_created_on>2022-06-01 15:04:44</sys_created_on>
+        <sys_id>601bb4ce1bff85d062e50ed2cd4bcbba</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>requested_for</sys_name>
+        <sys_name>company_access</sys_name>
         <sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope>
-        <sys_update_name>catalog_ui_policy_action_2bfb615a1b7a451062e50ed2cd4bcb3d</sys_update_name>
+        <sys_update_name>catalog_ui_policy_action_601bb4ce1bff85d062e50ed2cd4bcbba</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-04-13 20:13:54</sys_updated_on>
+        <sys_updated_on>2022-06-01 15:04:44</sys_updated_on>
         <table/>
         <ui_policy display_value="Set Access to Mandatory and Show Company">e3fb615a1b7a451062e50ed2cd4bcb2c</ui_policy>
-        <variable>requested_for</variable>
+        <variable>company_access</variable>
         <variable_set/>
-        <visible>ignore</visible>
+        <visible>true</visible>
     </catalog_ui_policy_action>
 </record_update>

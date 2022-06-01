@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>false</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>true</applies_req_item>
+        <applies_sc_task>true</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="OneStream Access Request">03fb2d1a1b7a451062e50ed2cd4bcb6a</cat_item>
+        <cat_variable>IO:6680d3441ba274108c5143f3cc4bcb39</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Set requested for title</name>
+        <order>0</order>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+	g_form.setValue('requested_for_title','Title Not Found');
+	if(newValue != oldValue){
+		g_form.getReference('requested_for',function(requestedForGr){//Show req for title and set value
+			var title = requestedForGr.title.toString();
+			if (!title){
+				title = 'Title Not Found';
+			}
+			g_form.setValue('requested_for_title',title);
+			g_form.setVisible('requested_for_title',true);
+			g_form.setReadOnly('requested_for_title',true);
+		});
+	}
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-31 20:17:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0c09b0b51b7745d062e50ed2cd4bcb0e</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Set requested for title</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope>
+        <sys_update_name>catalog_script_client_0c09b0b51b7745d062e50ed2cd4bcb0e</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-05-31 21:02:57</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+</record_update>

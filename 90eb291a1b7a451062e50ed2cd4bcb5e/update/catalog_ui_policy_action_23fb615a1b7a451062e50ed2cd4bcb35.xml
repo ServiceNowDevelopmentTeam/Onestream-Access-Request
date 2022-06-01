@@ -20,7 +20,7 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-04-13 20:13:54</sys_updated_on>
         <table/>
-        <ui_policy display_value="Set Access to Mandatory">e3fb615a1b7a451062e50ed2cd4bcb2c</ui_policy>
+        <ui_policy display_value="Set Access to Mandatory and Show Company">e3fb615a1b7a451062e50ed2cd4bcb2c</ui_policy>
         <variable>access_type</variable>
         <variable_set/>
         <visible>ignore</visible>
