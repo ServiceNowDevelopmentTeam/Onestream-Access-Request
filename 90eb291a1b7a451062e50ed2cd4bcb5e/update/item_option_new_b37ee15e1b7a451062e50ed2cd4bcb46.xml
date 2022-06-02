@@ -24,8 +24,7 @@
         <help_tag>More information</help_tag>
         <help_text>Access Levels:&#13;
 Read Only (Run reports and view data)&#13;
-Write (Load data, run reports, and view data)&#13;
-Administrator</help_text>
+Write (Load data, run reports, and view data)</help_text>
         <hidden>false</hidden>
         <include_none>true</include_none>
         <instructions/>
@@ -71,14 +70,14 @@ Administrator</help_text>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-04-13 20:29:04</sys_created_on>
         <sys_id>b37ee15e1b7a451062e50ed2cd4bcb46</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Access Level</sys_name>
         <sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope>
         <sys_update_name>item_option_new_b37ee15e1b7a451062e50ed2cd4bcb46</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-04-18 15:22:44</sys_updated_on>
+        <sys_updated_on>2022-06-02 21:04:47</sys_updated_on>
         <table/>
         <tooltip>Select the level of access</tooltip>
         <type>5</type>
