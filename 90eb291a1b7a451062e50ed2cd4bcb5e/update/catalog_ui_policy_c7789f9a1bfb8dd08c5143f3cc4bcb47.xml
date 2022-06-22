@@ -16,7 +16,7 @@
         <model_id/>
         <model_table/>
         <on_load>true</on_load>
-        <order>100</order>
+        <order>101</order>
         <reverse_if_false>true</reverse_if_false>
         <run_scripts>false</run_scripts>
         <script_false><![CDATA[function onCondition() {
@@ -33,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c7789f9a1bfb8dd08c5143f3cc4bcb47</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Hide fields if disable access</sys_name>
         <sys_overrides/>
         <sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package>
@@ -41,7 +41,7 @@
         <sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope>
         <sys_update_name>catalog_ui_policy_c7789f9a1bfb8dd08c5143f3cc4bcb47</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-06-02 21:10:59</sys_updated_on>
+        <sys_updated_on>2022-06-22 20:31:26</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
         <variable_set/>
