@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>false</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>true</applies_req_item>
+        <applies_sc_task>true</applies_sc_task>
+        <applies_target_record>true</applies_target_record>
+        <applies_to>set</applies_to>
+        <cat_item/>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Adjust access_service collector size</name>
+        <order>100</order>
+        <script><![CDATA[function onLoad(){
+    var varName = 'company_access';
+    var height = '100'; //Optional
+    var width = '250'; //Optional
+    try{
+        //Get the left and right bucket input elements
+        var leftBucket = $(varName + '_select_0');
+        var rightBucket = $(varName + '_select_1');
+       
+        //If the element exists
+        if(leftBucket){
+            //Adjust the bucket height (default is 300px)
+            if(height){
+                leftBucket.style.height = height + 'px';
+                rightBucket.style.height = height + 'px';
+            }
+           
+            if(width){
+                //Adjust the bucket width (default is 340px)
+                leftBucket.style.width = width + 'px';
+                rightBucket.style.width = width + 'px';
+                                //Fix Fuji/Geneva width issue
+                                leftBucket.up('.slushbucket').style.width = width*2 + 100 + 'px';
+            }
+           
+            //Fix the expanding item preview issue
+            $(varName + 'recordpreview').up('td').setAttribute('colSpan', '3');
+        }
+    }catch(e){}
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-06-29 17:47:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>50bce50f1b1c95d08c5143f3cc4bcb11</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Adjust access_service collector size</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope>
+        <sys_update_name>catalog_script_client_50bce50f1b1c95d08c5143f3cc4bcb11</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-06-29 17:55:23</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <variable_set display_value="Access Service">98d79bac1b36345062e50ed2cd4bcb27</variable_set>
+        <view/>
+    </catalog_script_client>
+</record_update>
