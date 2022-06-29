@@ -64,14 +64,14 @@
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-04-13 20:13:52</sys_created_on>
         <sys_id>03fb2d1a1b7a451062e50ed2cd4bcb6a</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>OneStream Access Request</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope>
         <sys_update_name>sc_cat_item_03fb2d1a1b7a451062e50ed2cd4bcb6a</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-06-17 19:50:26</sys_updated_on>
+        <sys_updated_on>2022-06-28 14:45:21</sys_updated_on>
         <taxonomy_topic display_value="Software &amp; Access">cba5b08a1b46011062e50ed2cd4bcb6e</taxonomy_topic>
         <template/>
         <template_manager_roles/>
@@ -79,7 +79,8 @@
         <u_additional_info/>
         <u_additional_info_completed/>
         <u_additional_info_updated/>
-        <u_approval_condition table="sc_req_item">variables.349917601b76345062e50ed2cd4bcb1b=1^EQ<item endquery="false" field="variables.349917601b76345062e50ed2cd4bcb1b" goto="false" newquery="false" operator="=" or="false" value="1"/>
+        <u_approval_condition table="sc_req_item">variables.349917601b76345062e50ed2cd4bcb1b=1^ORvariables.349917601b76345062e50ed2cd4bcb1b=2^EQ<item endquery="false" field="variables.349917601b76345062e50ed2cd4bcb1b" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="false" field="variables.349917601b76345062e50ed2cd4bcb1b" goto="false" newquery="false" operator="=" or="true" value="2"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </u_approval_condition>
         <u_cdw_item>false</u_cdw_item>
