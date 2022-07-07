@@ -43,6 +43,8 @@
     <sys_translated_text action="delete_multiple" query="documentkey=3c7dd0971b48d9508c5143f3cc4bcbee"/>
     <sys_variable_value action="delete_multiple" query="document_key=3c7dd0971b48d9508c5143f3cc4bcbee"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3c7dd0971b48d9508c5143f3cc4bcbee^id=3c7dd0971b48d9508c5143f3cc4bcbee"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=3c7dd0971b48d9508c5143f3cc4bcbee"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=3c7dd0971b48d9508c5143f3cc4bcbee"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=3c7dd0971b48d9508c5143f3cc4bcbee^sys_idNOT INb87dd0971b48d9508c5143f3cc4bcbf0"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>3c7dd0971b48d9508c5143f3cc4bcbee</id>
@@ -55,6 +57,7 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-06-17 20:23:08</sys_updated_on>
     </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=b87dd0971b48d9508c5143f3cc4bcbf0"/>
     <sys_hub_flow_input action="delete_multiple" query="model=3c7dd0971b48d9508c5143f3cc4bcbee^sys_idNOT IN817d14971b48d9508c5143f3cc4bcb69"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -219,6 +222,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_output>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3c7dd0971b48d9508c5143f3cc4bcbee"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=3c7dd0971b48d9508c5143f3cc4bcbee^sys_idNOT IN1d7d54971b48d9508c5143f3cc4bcbbb,557d54971b48d9508c5143f3cc4bcb99,c150ec9f1b48d9508c5143f3cc4bcb47,c950ec9f1b48d9508c5143f3cc4bcb36"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -307,6 +311,8 @@
         <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1d7d54971b48d9508c5143f3cc4bcbbb"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1d7d54971b48d9508c5143f3cc4bcbbb"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -394,6 +400,8 @@
         <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=557d54971b48d9508c5143f3cc4bcb99"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=557d54971b48d9508c5143f3cc4bcb99"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -455,6 +463,8 @@
         <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c150ec9f1b48d9508c5143f3cc4bcb47"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c150ec9f1b48d9508c5143f3cc4bcb47"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -516,6 +526,9 @@
         <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c950ec9f1b48d9508c5143f3cc4bcb36"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c950ec9f1b48d9508c5143f3cc4bcb36"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=3c7dd0971b48d9508c5143f3cc4bcbee"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=3c7dd0971b48d9508c5143f3cc4bcbee^sys_idNOT IN057d14971b48d9508c5143f3cc4bcbbb,0950ec9f1b48d9508c5143f3cc4bcb49,097d14971b48d9508c5143f3cc4bcbc5,0d7d14971b48d9508c5143f3cc4bcb90,117d54971b48d9508c5143f3cc4bcb34,197d54971b48d9508c5143f3cc4bcb30,1d7d54971b48d9508c5143f3cc4bcb2a,3850ec9f1b48d9508c5143f3cc4bcb10,4550ec9f1b48d9508c5143f3cc4bcb4d,4d50ec9f1b48d9508c5143f3cc4bcb3d,50b0e8df1b48d9508c5143f3cc4bcbe5,557d54971b48d9508c5143f3cc4bcb0b,597d54971b48d9508c5143f3cc4bcb07,5d7d54971b48d9508c5143f3cc4bcb8e,857d14971b48d9508c5143f3cc4bcbc1,8950ec9f1b48d9508c5143f3cc4bcb39,917d54971b48d9508c5143f3cc4bcb0e,f450ec9f1b48d9508c5143f3cc4bcb13"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">bceac5661b0015508c5143f3cc4bcbf9</block>
@@ -578,6 +591,8 @@
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_3c7dd0971b48d9508c5143f3cc4bcbee^id=057d14971b48d9508c5143f3cc4bcbbb"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=057d14971b48d9508c5143f3cc4bcbbb"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3c7dd0971b48d9508c5143f3cc4bcbee^id=057d14971b48d9508c5143f3cc4bcbbb"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=057d14971b48d9508c5143f3cc4bcbbb"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=057d14971b48d9508c5143f3cc4bcbbb"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">4150ec9f1b48d9508c5143f3cc4bcb49</block>
         <comment/>
@@ -650,6 +665,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3c7dd0971b48d9508c5143f3cc4bcbee^id=0950ec9f1b48d9508c5143f3cc4bcb49"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=0950ec9f1b48d9508c5143f3cc4bcb49"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0950ec9f1b48d9508c5143f3cc4bcb49"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">c1ea09661b0015508c5143f3cc4bcb0b</block>
         <comment>Set context found true</comment>
@@ -696,6 +713,8 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_3c7dd0971b48d9508c5143f3cc4bcbee^id=097d14971b48d9508c5143f3cc4bcbc5"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3c7dd0971b48d9508c5143f3cc4bcbee^id=097d14971b48d9508c5143f3cc4bcbc5"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=097d14971b48d9508c5143f3cc4bcbc5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=097d14971b48d9508c5143f3cc4bcbc5"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">b4eac5661b0015508c5143f3cc4bcbf6</block>
         <comment>Start loop to find a flow context before continuing</comment>
@@ -768,6 +787,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3c7dd0971b48d9508c5143f3cc4bcbee^id=0d7d14971b48d9508c5143f3cc4bcb90"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=0d7d14971b48d9508c5143f3cc4bcb90"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0d7d14971b48d9508c5143f3cc4bcb90"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">c5ea09661b0015508c5143f3cc4bcb35</block>
         <comment/>
@@ -840,6 +861,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3c7dd0971b48d9508c5143f3cc4bcbee^id=117d54971b48d9508c5143f3cc4bcb34"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=117d54971b48d9508c5143f3cc4bcb34"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=117d54971b48d9508c5143f3cc4bcb34"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">01ea09661b0015508c5143f3cc4bcb32</block>
         <comment/>
@@ -886,6 +909,8 @@
         <value>{{2d228a0a-dc43-476e-92c5-ab46de51b88d.Records}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3c7dd0971b48d9508c5143f3cc4bcbee^id=197d54971b48d9508c5143f3cc4bcb30"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=197d54971b48d9508c5143f3cc4bcb30"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=197d54971b48d9508c5143f3cc4bcb30"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">0dea09661b0015508c5143f3cc4bcb17</block>
         <comment>Wait so loop doesn't run too fast</comment>
@@ -947,6 +972,8 @@
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_3c7dd0971b48d9508c5143f3cc4bcbee^id=1d7d54971b48d9508c5143f3cc4bcb2a"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=1d7d54971b48d9508c5143f3cc4bcb2a"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3c7dd0971b48d9508c5143f3cc4bcbee^id=1d7d54971b48d9508c5143f3cc4bcb2a"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1d7d54971b48d9508c5143f3cc4bcb2a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1d7d54971b48d9508c5143f3cc4bcb2a"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">7c50ec9f1b48d9508c5143f3cc4bcb0f</block>
         <comment/>
@@ -979,6 +1006,8 @@
     <sys_variable_value action="delete_multiple" query="document_key=3850ec9f1b48d9508c5143f3cc4bcb10"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_3c7dd0971b48d9508c5143f3cc4bcbee^id=3850ec9f1b48d9508c5143f3cc4bcb10"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3c7dd0971b48d9508c5143f3cc4bcbee^id=3850ec9f1b48d9508c5143f3cc4bcb10"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=3850ec9f1b48d9508c5143f3cc4bcb10"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3850ec9f1b48d9508c5143f3cc4bcb10"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">8d50ec9f1b48d9508c5143f3cc4bcb4c</block>
         <comment/>
@@ -1025,6 +1054,8 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_3c7dd0971b48d9508c5143f3cc4bcbee^id=4550ec9f1b48d9508c5143f3cc4bcb4d"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3c7dd0971b48d9508c5143f3cc4bcbee^id=4550ec9f1b48d9508c5143f3cc4bcb4d"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=4550ec9f1b48d9508c5143f3cc4bcb4d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4550ec9f1b48d9508c5143f3cc4bcb4d"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">8550ec9f1b48d9508c5143f3cc4bcb3d</block>
         <comment>Set Approval or Task to Task</comment>
@@ -1071,6 +1102,8 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_3c7dd0971b48d9508c5143f3cc4bcbee^id=4d50ec9f1b48d9508c5143f3cc4bcb3d"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3c7dd0971b48d9508c5143f3cc4bcbee^id=4d50ec9f1b48d9508c5143f3cc4bcb3d"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=4d50ec9f1b48d9508c5143f3cc4bcb3d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4d50ec9f1b48d9508c5143f3cc4bcb3d"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">98b0e8df1b48d9508c5143f3cc4bcbe4</block>
         <comment/>
@@ -1116,6 +1149,8 @@
         <table>var__m_sys_hub_flow_output_3c7dd0971b48d9508c5143f3cc4bcbee</table>
         <value>{{flow_variable.approvalortask}}</value>
     </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=50b0e8df1b48d9508c5143f3cc4bcbe5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=50b0e8df1b48d9508c5143f3cc4bcbe5"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">c9ea09661b0015508c5143f3cc4bcb11</block>
         <comment>Abort flow</comment>
@@ -1148,6 +1183,8 @@
     <sys_variable_value action="delete_multiple" query="document_key=557d54971b48d9508c5143f3cc4bcb0b"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_3c7dd0971b48d9508c5143f3cc4bcbee^id=557d54971b48d9508c5143f3cc4bcb0b"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3c7dd0971b48d9508c5143f3cc4bcbee^id=557d54971b48d9508c5143f3cc4bcb0b"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=557d54971b48d9508c5143f3cc4bcb0b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=557d54971b48d9508c5143f3cc4bcb0b"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">c1ea09661b0015508c5143f3cc4bcb0e</block>
         <comment/>
@@ -1220,6 +1257,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3c7dd0971b48d9508c5143f3cc4bcbee^id=597d54971b48d9508c5143f3cc4bcb07"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=597d54971b48d9508c5143f3cc4bcb07"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=597d54971b48d9508c5143f3cc4bcb07"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">85ea09661b0015508c5143f3cc4bcb45</block>
         <comment>Set flow settled true</comment>
@@ -1266,6 +1305,8 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_3c7dd0971b48d9508c5143f3cc4bcbee^id=5d7d54971b48d9508c5143f3cc4bcb8e"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3c7dd0971b48d9508c5143f3cc4bcbee^id=5d7d54971b48d9508c5143f3cc4bcb8e"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=5d7d54971b48d9508c5143f3cc4bcb8e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5d7d54971b48d9508c5143f3cc4bcb8e"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">c9ea09661b0015508c5143f3cc4bcb07</block>
         <comment/>
@@ -1338,6 +1379,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3c7dd0971b48d9508c5143f3cc4bcbee^id=857d14971b48d9508c5143f3cc4bcbc1"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=857d14971b48d9508c5143f3cc4bcbc1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=857d14971b48d9508c5143f3cc4bcbc1"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">c150ec9f1b48d9508c5143f3cc4bcb39</block>
         <comment/>
@@ -1410,6 +1453,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3c7dd0971b48d9508c5143f3cc4bcbee^id=8950ec9f1b48d9508c5143f3cc4bcb39"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=8950ec9f1b48d9508c5143f3cc4bcb39"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8950ec9f1b48d9508c5143f3cc4bcb39"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">05ea09661b0015508c5143f3cc4bcb14</block>
         <comment/>
@@ -1482,6 +1527,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3c7dd0971b48d9508c5143f3cc4bcbee^id=917d54971b48d9508c5143f3cc4bcb0e"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=917d54971b48d9508c5143f3cc4bcb0e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=917d54971b48d9508c5143f3cc4bcb0e"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">3050ec9f1b48d9508c5143f3cc4bcb13</block>
         <comment/>
@@ -1554,6 +1601,9 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_3c7dd0971b48d9508c5143f3cc4bcbee^id=f450ec9f1b48d9508c5143f3cc4bcb13"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f450ec9f1b48d9508c5143f3cc4bcb13"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f450ec9f1b48d9508c5143f3cc4bcb13"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3c7dd0971b48d9508c5143f3cc4bcbee"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=3c7dd0971b48d9508c5143f3cc4bcbee^sys_idNOT IN0d7d14971b48d9508c5143f3cc4bcb28,cd7d14971b48d9508c5143f3cc4bcb2f,e450ac9f1b48d9508c5143f3cc4bcbb6"/>
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1822,6 +1872,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3c7dd0971b48d9508c5143f3cc4bcbee"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_3c7dd0971b48d9508c5143f3cc4bcbee^sys_idNOT IN6c50ac9f1b48d9508c5143f3cc4bcb97"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>ritmorapprovaloutput</element>
@@ -1931,6 +1982,7 @@
             <value>Task</value>
         </sys_choice>
     </sys_choice>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=3c7dd0971b48d9508c5143f3cc4bcbee"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=3c7dd0971b48d9508c5143f3cc4bcbee^sys_idNOT INe2b0ecdf1b48d9508c5143f3cc4bcb30"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"e2b0ecdf1b48d9508c5143f3cc4bcb30","name":"plan","plan_signature":null}}</plan>
@@ -1989,6 +2041,8 @@
     <sys_translated_text action="delete_multiple" query="documentkey=85b06cdf1b48d9508c5143f3cc4bcb34"/>
     <sys_variable_value action="delete_multiple" query="document_key=85b06cdf1b48d9508c5143f3cc4bcb34"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_85b06cdf1b48d9508c5143f3cc4bcb34^id=85b06cdf1b48d9508c5143f3cc4bcb34"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=85b06cdf1b48d9508c5143f3cc4bcb34"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=85b06cdf1b48d9508c5143f3cc4bcb34"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=85b06cdf1b48d9508c5143f3cc4bcb34^sys_idNOT IN0db06cdf1b48d9508c5143f3cc4bcb35"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>85b06cdf1b48d9508c5143f3cc4bcb34</id>
@@ -2001,6 +2055,7 @@
         <sys_updated_by>Terry.Lillo</sys_updated_by>
         <sys_updated_on>2022-06-17 20:37:21</sys_updated_on>
     </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=0db06cdf1b48d9508c5143f3cc4bcb35"/>
     <sys_hub_flow_input action="delete_multiple" query="model=85b06cdf1b48d9508c5143f3cc4bcb34^sys_idNOT IN41b06cdf1b48d9508c5143f3cc4bcb37"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -2165,6 +2220,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_output>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=85b06cdf1b48d9508c5143f3cc4bcb34"/>
     <sys_hub_action_instance action="delete_multiple" query="flow=85b06cdf1b48d9508c5143f3cc4bcb34^sys_idNOT IN06b0acdf1b48d9508c5143f3cc4bcbad,35b0acdf1b48d9508c5143f3cc4bcb7b,82b0acdf1b48d9508c5143f3cc4bcba5,b9b0acdf1b48d9508c5143f3cc4bcb9c"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -2227,6 +2283,8 @@
         <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=06b0acdf1b48d9508c5143f3cc4bcbad"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=06b0acdf1b48d9508c5143f3cc4bcbad"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -2314,6 +2372,8 @@
         <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=35b0acdf1b48d9508c5143f3cc4bcb7b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=35b0acdf1b48d9508c5143f3cc4bcb7b"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -2375,6 +2435,8 @@
         <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=82b0acdf1b48d9508c5143f3cc4bcba5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=82b0acdf1b48d9508c5143f3cc4bcba5"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -2462,6 +2524,9 @@
         <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
         <value/>
     </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b9b0acdf1b48d9508c5143f3cc4bcb9c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b9b0acdf1b48d9508c5143f3cc4bcb9c"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=85b06cdf1b48d9508c5143f3cc4bcb34"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=85b06cdf1b48d9508c5143f3cc4bcb34^sys_idNOT IN21b0acdf1b48d9508c5143f3cc4bcb4f,25b0acdf1b48d9508c5143f3cc4bcb2f,25b0acdf1b48d9508c5143f3cc4bcb3e,25b0acdf1b48d9508c5143f3cc4bcb45,31b0acdf1b48d9508c5143f3cc4bcb61,35b0acdf1b48d9508c5143f3cc4bcb68,39b0acdf1b48d9508c5143f3cc4bcb6f,3db0acdf1b48d9508c5143f3cc4bcb56,61b0acdf1b48d9508c5143f3cc4bcb36,6db0acdf1b48d9508c5143f3cc4bcb2a,a1b0acdf1b48d9508c5143f3cc4bcb42,a1b0acdf1b48d9508c5143f3cc4bcb49,b1b0acdf1b48d9508c5143f3cc4bcb5a,b1b0acdf1b48d9508c5143f3cc4bcb5d,b1b0acdf1b48d9508c5143f3cc4bcb6c,bdb0acdf1b48d9508c5143f3cc4bcb52,bdb0acdf1b48d9508c5143f3cc4bcb64,e1b0acdf1b48d9508c5143f3cc4bcb3a"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">01ea09661b0015508c5143f3cc4bcb32</block>
@@ -2509,6 +2574,8 @@
         <value>{{2d228a0a-dc43-476e-92c5-ab46de51b88d.Records}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_85b06cdf1b48d9508c5143f3cc4bcb34^id=21b0acdf1b48d9508c5143f3cc4bcb4f"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=21b0acdf1b48d9508c5143f3cc4bcb4f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=21b0acdf1b48d9508c5143f3cc4bcb4f"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">bceac5661b0015508c5143f3cc4bcbf9</block>
         <comment>Wait so loop doesn't run too fast</comment>
@@ -2570,6 +2637,8 @@
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_85b06cdf1b48d9508c5143f3cc4bcb34^id=25b0acdf1b48d9508c5143f3cc4bcb2f"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=25b0acdf1b48d9508c5143f3cc4bcb2f"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_85b06cdf1b48d9508c5143f3cc4bcb34^id=25b0acdf1b48d9508c5143f3cc4bcb2f"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=25b0acdf1b48d9508c5143f3cc4bcb2f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=25b0acdf1b48d9508c5143f3cc4bcb2f"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">c1ea09661b0015508c5143f3cc4bcb0e</block>
         <comment/>
@@ -2642,6 +2711,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_85b06cdf1b48d9508c5143f3cc4bcb34^id=25b0acdf1b48d9508c5143f3cc4bcb3e"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=25b0acdf1b48d9508c5143f3cc4bcb3e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=25b0acdf1b48d9508c5143f3cc4bcb3e"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">05ea09661b0015508c5143f3cc4bcb14</block>
         <comment/>
@@ -2714,6 +2785,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_85b06cdf1b48d9508c5143f3cc4bcb34^id=25b0acdf1b48d9508c5143f3cc4bcb45"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=25b0acdf1b48d9508c5143f3cc4bcb45"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=25b0acdf1b48d9508c5143f3cc4bcb45"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">c150ec9f1b48d9508c5143f3cc4bcb39</block>
         <comment/>
@@ -2786,6 +2859,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_85b06cdf1b48d9508c5143f3cc4bcb34^id=31b0acdf1b48d9508c5143f3cc4bcb61"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=31b0acdf1b48d9508c5143f3cc4bcb61"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=31b0acdf1b48d9508c5143f3cc4bcb61"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">4150ec9f1b48d9508c5143f3cc4bcb49</block>
         <comment/>
@@ -2858,6 +2933,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_85b06cdf1b48d9508c5143f3cc4bcb34^id=35b0acdf1b48d9508c5143f3cc4bcb68"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=35b0acdf1b48d9508c5143f3cc4bcb68"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=35b0acdf1b48d9508c5143f3cc4bcb68"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">98b0e8df1b48d9508c5143f3cc4bcbe4</block>
         <comment/>
@@ -2903,6 +2980,8 @@
         <table>var__m_sys_hub_flow_output_85b06cdf1b48d9508c5143f3cc4bcb34</table>
         <value>{{flow_variable.approvalortask}}</value>
     </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=39b0acdf1b48d9508c5143f3cc4bcb6f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=39b0acdf1b48d9508c5143f3cc4bcb6f"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">85ea09661b0015508c5143f3cc4bcb45</block>
         <comment>Set flow settled true</comment>
@@ -2949,6 +3028,8 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_85b06cdf1b48d9508c5143f3cc4bcb34^id=3db0acdf1b48d9508c5143f3cc4bcb56"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_85b06cdf1b48d9508c5143f3cc4bcb34^id=3db0acdf1b48d9508c5143f3cc4bcb56"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=3db0acdf1b48d9508c5143f3cc4bcb56"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3db0acdf1b48d9508c5143f3cc4bcb56"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">c9ea09661b0015508c5143f3cc4bcb07</block>
         <comment/>
@@ -3021,6 +3102,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_85b06cdf1b48d9508c5143f3cc4bcb34^id=61b0acdf1b48d9508c5143f3cc4bcb36"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=61b0acdf1b48d9508c5143f3cc4bcb36"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=61b0acdf1b48d9508c5143f3cc4bcb36"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">b4eac5661b0015508c5143f3cc4bcbf6</block>
         <comment>Start loop to find a flow context before continuing</comment>
@@ -3093,6 +3176,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_85b06cdf1b48d9508c5143f3cc4bcb34^id=6db0acdf1b48d9508c5143f3cc4bcb2a"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6db0acdf1b48d9508c5143f3cc4bcb2a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6db0acdf1b48d9508c5143f3cc4bcb2a"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">c9ea09661b0015508c5143f3cc4bcb11</block>
         <comment>Abort flow</comment>
@@ -3125,6 +3210,8 @@
     <sys_variable_value action="delete_multiple" query="document_key=a1b0acdf1b48d9508c5143f3cc4bcb42"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_85b06cdf1b48d9508c5143f3cc4bcb34^id=a1b0acdf1b48d9508c5143f3cc4bcb42"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_85b06cdf1b48d9508c5143f3cc4bcb34^id=a1b0acdf1b48d9508c5143f3cc4bcb42"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a1b0acdf1b48d9508c5143f3cc4bcb42"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a1b0acdf1b48d9508c5143f3cc4bcb42"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">0dea09661b0015508c5143f3cc4bcb17</block>
         <comment>Wait so loop doesn't run too fast</comment>
@@ -3186,6 +3273,8 @@
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_85b06cdf1b48d9508c5143f3cc4bcb34^id=a1b0acdf1b48d9508c5143f3cc4bcb49"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=a1b0acdf1b48d9508c5143f3cc4bcb49"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_85b06cdf1b48d9508c5143f3cc4bcb34^id=a1b0acdf1b48d9508c5143f3cc4bcb49"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a1b0acdf1b48d9508c5143f3cc4bcb49"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a1b0acdf1b48d9508c5143f3cc4bcb49"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">7c50ec9f1b48d9508c5143f3cc4bcb0f</block>
         <comment/>
@@ -3218,6 +3307,8 @@
     <sys_variable_value action="delete_multiple" query="document_key=b1b0acdf1b48d9508c5143f3cc4bcb5a"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_85b06cdf1b48d9508c5143f3cc4bcb34^id=b1b0acdf1b48d9508c5143f3cc4bcb5a"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_85b06cdf1b48d9508c5143f3cc4bcb34^id=b1b0acdf1b48d9508c5143f3cc4bcb5a"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b1b0acdf1b48d9508c5143f3cc4bcb5a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b1b0acdf1b48d9508c5143f3cc4bcb5a"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">3050ec9f1b48d9508c5143f3cc4bcb13</block>
         <comment/>
@@ -3290,6 +3381,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_85b06cdf1b48d9508c5143f3cc4bcb34^id=b1b0acdf1b48d9508c5143f3cc4bcb5d"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b1b0acdf1b48d9508c5143f3cc4bcb5d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b1b0acdf1b48d9508c5143f3cc4bcb5d"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">8d50ec9f1b48d9508c5143f3cc4bcb4c</block>
         <comment/>
@@ -3336,6 +3429,8 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_85b06cdf1b48d9508c5143f3cc4bcb34^id=b1b0acdf1b48d9508c5143f3cc4bcb6c"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_85b06cdf1b48d9508c5143f3cc4bcb34^id=b1b0acdf1b48d9508c5143f3cc4bcb6c"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b1b0acdf1b48d9508c5143f3cc4bcb6c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b1b0acdf1b48d9508c5143f3cc4bcb6c"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">c5ea09661b0015508c5143f3cc4bcb35</block>
         <comment/>
@@ -3408,6 +3503,8 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_85b06cdf1b48d9508c5143f3cc4bcb34^id=bdb0acdf1b48d9508c5143f3cc4bcb52"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=bdb0acdf1b48d9508c5143f3cc4bcb52"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bdb0acdf1b48d9508c5143f3cc4bcb52"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">8550ec9f1b48d9508c5143f3cc4bcb3d</block>
         <comment>Set Approval or Task to Task</comment>
@@ -3454,6 +3551,8 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_85b06cdf1b48d9508c5143f3cc4bcb34^id=bdb0acdf1b48d9508c5143f3cc4bcb64"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_85b06cdf1b48d9508c5143f3cc4bcb34^id=bdb0acdf1b48d9508c5143f3cc4bcb64"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=bdb0acdf1b48d9508c5143f3cc4bcb64"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bdb0acdf1b48d9508c5143f3cc4bcb64"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">c1ea09661b0015508c5143f3cc4bcb0b</block>
         <comment>Set context found true</comment>
@@ -3500,6 +3599,9 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_85b06cdf1b48d9508c5143f3cc4bcb34^id=e1b0acdf1b48d9508c5143f3cc4bcb3a"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_85b06cdf1b48d9508c5143f3cc4bcb34^id=e1b0acdf1b48d9508c5143f3cc4bcb3a"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e1b0acdf1b48d9508c5143f3cc4bcb3a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e1b0acdf1b48d9508c5143f3cc4bcb3a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=85b06cdf1b48d9508c5143f3cc4bcb34"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=85b06cdf1b48d9508c5143f3cc4bcb34^sys_idNOT IN29b0acdf1b48d9508c5143f3cc4bcb16,edb0acdf1b48d9508c5143f3cc4bcb1c,edb0acdf1b48d9508c5143f3cc4bcb22"/>
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -3768,6 +3870,7 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_85b06cdf1b48d9508c5143f3cc4bcb34"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_85b06cdf1b48d9508c5143f3cc4bcb34^sys_idNOT IN9db06cdf1b48d9508c5143f3cc4bcbf4"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>ritmorapprovaloutput</element>
