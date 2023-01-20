@@ -81,7 +81,7 @@
         <update_guid_history>a9d8b875757745d0092aa372303278ee:-1444735174,43b8f475167745d0c2def7e94cd27b08:1546525576,1ea8fcf1077745d0fb11f2296313f9bb:87988616,9f88f8f1337745d0700bd742f3e98fbe:207410344,9cca643961ffc5d0b23032bd95a72e1f:264759907,be7a20f5a1ffc5d0537e8fd6bcb92f53:1138000611,917ae0f575ffc5d0db12a88198afbed2:1471007802,047a2cb5b4ffc5d02168f74acf5ce3e7:898199572,6d0aa8353cffc5d03aaf0420247f97e2:1810223251,76f8e435aeffc5d0bc98eb31cb71878a:1143166195,2cd8e43599ffc5d00679087f25f0071f:-1564936783,57c864f10cffc5d0aa7cf016a18eb98f:-1139828536,2978a8b17cffc5d021a9d791e027cb31:970561686,f4f7e8b1a0ffc5d076b709dbe4bec52d:570674738,a4c6283190ffc5d093155ec5a18635c3:2113056603,9496a83160ffc5d009d51e099f359924:-434820683,8a762831e9ffc5d0b5029e7cc7c9d83e:-1471378860,4456e8bde1bfc5d017fb0dcee3debc6d:-36988492,40d4a4bd95bfc5d0894655f87c971b62:-1408508664,7b74247d1fbfc5d034ed76ee991d143b:-38441638,8e74e07d7bbfc5d04739fc9840a0e738:-1709612563</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Fill requested for title">5ae870b51b7745d062e50ed2cd4bcb1a</sys_audit_delete>
+        <sys_audit_delete display_value="">5ae870b51b7745d062e50ed2cd4bcb1a</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-05-31 20:16:32</sys_created_on>

@@ -99,7 +99,7 @@
         <update_guid_history>4591c1b932f745d0540ba1748a5c1ca0:-1856048351,a8714db59cf745d0ea0500ffa0ce962f:556654520,5c61c139d6f745d00f7a717d1d15e98c:952321886</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Set Title based on ReqFor (onChange)">283241bd1bf745d062e50ed2cd4bcba4</sys_audit_delete>
+        <sys_audit_delete display_value="">283241bd1bf745d062e50ed2cd4bcba4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-05-31 20:57:07</sys_created_on>

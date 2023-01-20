@@ -42,7 +42,7 @@
         <update_guid_history>2bfb615a927a45103f45983e2c5c546f:-1457183919</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="OneStream Access Request">24d0810a1b33c5d062e50ed2cd4bcb9c</sys_audit_delete>
+        <sys_audit_delete display_value="">24d0810a1b33c5d062e50ed2cd4bcb9c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-06-01 15:29:34</sys_created_on>

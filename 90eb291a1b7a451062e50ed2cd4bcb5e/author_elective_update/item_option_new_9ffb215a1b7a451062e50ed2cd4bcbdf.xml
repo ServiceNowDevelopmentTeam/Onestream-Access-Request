@@ -156,7 +156,7 @@
         <update_guid_history>d7fb215a967a451001957e31738a12e5:-1114067546</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Approving Manager">6e6c6d5a1b7a451062e50ed2cd4bcba3</sys_audit_delete>
+        <sys_audit_delete display_value="">6e6c6d5a1b7a451062e50ed2cd4bcba3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-04-13 20:15:44</sys_created_on>

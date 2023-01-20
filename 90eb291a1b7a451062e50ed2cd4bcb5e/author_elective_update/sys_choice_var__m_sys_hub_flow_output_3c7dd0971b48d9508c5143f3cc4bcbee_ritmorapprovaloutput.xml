@@ -5,16 +5,15 @@
             <name>var__m_sys_hub_flow_output_3c7dd0971b48d9508c5143f3cc4bcbee</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>Terry.Lillo</sys_created_by>
-            <sys_created_on>2022-06-17 20:35:40</sys_created_on>
-            <sys_id>6050ac9f1b48d9508c5143f3cc4bcb90</sys_id>
+            <sys_created_on>2022-06-30 16:54:40</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name/>
+            <sys_name>ritmorapprovaloutput</sys_name>
             <sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package>
             <sys_policy/>
             <sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope>
-            <sys_update_name/>
+            <sys_update_name>sys_choice_var__m_sys_hub_flow_output_3c7dd0971b48d9508c5143f3cc4bcbee_ritmorapprovaloutput</sys_update_name>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
-            <sys_updated_on>2022-06-17 20:35:40</sys_updated_on>
+            <sys_updated_on>2022-06-30 16:54:40</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -30,7 +29,6 @@
             <sys_created_on>2022-06-17 20:35:40</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>2850ac9f1b48d9508c5143f3cc4bcb8f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
             <sys_updated_on>2022-06-17 20:35:40</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2022-06-17 20:35:40</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>e050ac9f1b48d9508c5143f3cc4bcb91</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Terry.Lillo</sys_updated_by>
             <sys_updated_on>2022-06-17 20:35:40</sys_updated_on>

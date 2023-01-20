@@ -2,7 +2,7 @@
     <sys_hub_flow_variable action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2ce309a0-450e-45cd-9908-c2769dfa8db2</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=88b83289-4a8c-4354-8f9c-0c5af4e6a000</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -26,7 +26,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>onestream_cmdb_sys_id</element>
+        <element>access</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -35,13 +35,13 @@
         <help/>
         <hint/>
         <internal_type display_value="String">string</internal_type>
-        <label>OneStream CMDB Sys_id</label>
+        <label>access</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="OneStream Access Request">45e5e27e1b76091062e50ed2cd4bcbeb</model>
-        <model_id>45e5e27e1b76091062e50ed2cd4bcbeb</model_id>
-        <model_table>sys_hub_flow_snapshot</model_table>
-        <name>var__m_sys_hub_flow_variable_45e5e27e1b76091062e50ed2cd4bcbeb</name>
+        <model display_value="Get Task Info from Single CMDB CI Service">ed059cdc1bcf09508c5143f3cc4bcba2</model>
+        <model_id>ed059cdc1bcf09508c5143f3cc4bcba2</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_ed059cdc1bcf09508c5143f3cc4bcba2</name>
         <next_element/>
         <order>0</order>
         <primary>false</primary>
@@ -57,15 +57,15 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_hub_flow_variable</sys_class_name>
-        <sys_created_by>Terry.Lillo</sys_created_by>
-        <sys_created_on>2022-04-18 15:13:07</sys_created_on>
-        <sys_name>OneStream CMDB Sys_id</sys_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-01-19 20:59:11</sys_created_on>
+        <sys_name>access</sys_name>
         <sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope>
-        <sys_update_name>sys_hub_flow_variable_5e175a7f1bb64d1062e50ed2cd4bcbc0</sys_update_name>
-        <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2022-04-18 15:13:07</sys_updated_on>
+        <sys_update_name>sys_hub_flow_variable_3a1d74381b6425108c5143f3cc4bcbd9</sys_update_name>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-01-19 20:59:11</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

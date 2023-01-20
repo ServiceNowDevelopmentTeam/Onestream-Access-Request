@@ -20,6 +20,7 @@ After rejected&#13;
 	RITM Closed Incomplete&#13;
 	REQ Closed Incomplete</description>
         <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>false</fail_on_server_error>
         <name>TC - 284 - Request - OneStream Rejection - IT</name>
         <parameters/>
         <remember/>

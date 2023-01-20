@@ -12,7 +12,6 @@ and Access Type = Disable Access</description>
         <mugshots_cache_json/>
         <notes>Fill in catalog item</notes>
         <order>6</order>
-        <snapshot/>
         <step_config display_value="Set Variable Values (SP)">2e4229b48703030070870cf888cb0b5c</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>

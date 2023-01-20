@@ -8,7 +8,6 @@
         <mugshots_cache_json/>
         <notes>Submit catalog item</notes>
         <order>7</order>
-        <snapshot/>
         <step_config display_value="Order a Catalog Item (SP)">c0fede515f23030076861f9f2f7313db</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>

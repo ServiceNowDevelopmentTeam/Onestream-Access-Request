@@ -89,7 +89,7 @@
         <update_guid_history>251aa0b590ffc5d0621ec50e7aaae5b1:-1857991460,941a24b5feffc5d0cc245c9d873fe0f3:141979068</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Fill requested for title on platform">248a20f51bffc5d08c5143f3cc4bcb27</sys_audit_delete>
+        <sys_audit_delete display_value="">248a20f51bffc5d08c5143f3cc4bcb27</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-05-31 19:13:37</sys_created_on>

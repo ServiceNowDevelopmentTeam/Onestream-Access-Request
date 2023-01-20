@@ -8,7 +8,6 @@
         <mugshots_cache_json/>
         <notes>Open catalog item</notes>
         <order>5</order>
-        <snapshot/>
         <step_config display_value="Open a Catalog Item (SP)">e81f02dc73e703008e6b0d573cf6a76f</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>

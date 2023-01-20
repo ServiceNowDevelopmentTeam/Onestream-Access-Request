@@ -156,7 +156,7 @@
         <update_guid_history>8539523702f64d10847e7dd041a63dd1:-20501727,51d8f26ef6fe8d10ff6130f32da2b373:1430315340,d89772aa81fe8d1028fa752578c568ce:199325448</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Production">9e91d7731b328d1062e50ed2cd4bcbbc</sys_audit_delete>
+        <sys_audit_delete display_value="">9e91d7731b328d1062e50ed2cd4bcbbc</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-04-18 19:28:43</sys_created_on>

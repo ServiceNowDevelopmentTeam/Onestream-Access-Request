@@ -156,7 +156,7 @@
         <update_guid_history>a45916376cf64d1050a39f3372a36a45:441469964,f03952379cf64d103efa5cfa13fdd19e:780777611,8c091ef3b3f64d106195c5d94555a06a:-2063372618,f30d6d9a2c7a45102797ea8ec1bb16d5:1732597545</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Access Type">e1ea96f71bf64d1062e50ed2cd4bcb70</sys_audit_delete>
+        <sys_audit_delete display_value="">e1ea96f71bf64d1062e50ed2cd4bcb70</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-04-18 15:29:43</sys_created_on>

@@ -156,7 +156,7 @@
         <update_guid_history>ee429bb3f9328d10d94f49fea4115c94:1065981811,0fd1df7321328d101632cf1dd3488b83:1998537108</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Environments (Select all that apply)">7a625fb31b328d1062e50ed2cd4bcbc4</sys_audit_delete>
+        <sys_audit_delete display_value="">7a625fb31b328d1062e50ed2cd4bcbc4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-04-18 19:32:17</sys_created_on>

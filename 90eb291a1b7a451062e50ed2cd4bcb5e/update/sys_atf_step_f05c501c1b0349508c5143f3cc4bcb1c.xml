@@ -17,7 +17,6 @@ Approval = Approved&#13;
 State= Open&#13;
 Assignment Group Populated</notes>
         <order>15</order>
-        <snapshot/>
         <step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>

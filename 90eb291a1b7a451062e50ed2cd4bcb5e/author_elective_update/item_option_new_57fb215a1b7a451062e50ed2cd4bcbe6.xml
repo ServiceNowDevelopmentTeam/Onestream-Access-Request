@@ -156,7 +156,7 @@
         <update_guid_history>dffb215ab87a4510a65b8afc63143beb:-1949850708</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Company">9a6c6d5a1b7a451062e50ed2cd4bcb50</sys_audit_delete>
+        <sys_audit_delete display_value="">9a6c6d5a1b7a451062e50ed2cd4bcb50</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-04-13 20:15:44</sys_created_on>

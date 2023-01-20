@@ -46,7 +46,7 @@
         <update_guid_history>b82de19a977a4510a65977a143e47bda:1872752737</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="New Access">59ea96f71bf64d1062e50ed2cd4bcb2c</sys_audit_delete>
+        <sys_audit_delete display_value="">59ea96f71bf64d1062e50ed2cd4bcb2c</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2022-04-18 15:29:43</sys_created_on>
