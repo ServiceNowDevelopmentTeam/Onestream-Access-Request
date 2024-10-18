@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="OneStream Access Request">03fb2d1a1b7a451062e50ed2cd4bcb6a</catalog_item>
+        <catalog_variable>IO:9ffb215a1b7a451062e50ed2cd4bcbd2</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-13 20:13:54</sys_created_on>
+        <sys_id>abfb615a1b7a451062e50ed2cd4bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>name_of_requestor</sys_name>
+        <sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_abfb615a1b7a451062e50ed2cd4bcb3a</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-13 20:13:54</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Set Access to Mandatory and Show Company">e3fb615a1b7a451062e50ed2cd4bcb2c</ui_policy>
+        <variable>name_of_requestor</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>catalog_ui_policy_action_abfb615a1b7a451062e50ed2cd4bcb3a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="OneStream Access Request">03fb2d1a1b7a451062e50ed2cd4bcb6a</catalog_item>
+        <catalog_variable>IO:9ffb215a1b7a451062e50ed2cd4bcbd2</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-13 20:13:54</sys_created_on>
+        <sys_id>abfb615a1b7a451062e50ed2cd4bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>name_of_requestor</sys_name>
+        <sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_abfb615a1b7a451062e50ed2cd4bcb3a</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-04-13 20:13:54</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Set Access to Mandatory and Show Company">e3fb615a1b7a451062e50ed2cd4bcb2c</ui_policy>
+        <variable>name_of_requestor</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>-838416768</payload_hash>
+        <record_name>name_of_requestor</record_name>
+        <reverted_from/>
+        <source>2b829e02339192109b1810919e5c7b83</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-10-18 19:45:34</sys_created_on>
+        <sys_id>0d929242339192109b1810919e5c7b62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192a129f54e0000001</sys_recorded_at>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-10-18 19:45:34</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>459292425c91921031b15ecfcbb7e262</update_guid>
+        <update_guid_history>459292425c91921031b15ecfcbb7e262:0,c370ce5f482ca150e4bdfa302a643133:1391718244,4f70ce5fe22ca1503aa60a2c2bda602d:-652444432</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-10-18 19:47:28</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>4613718ed88a40549ff5a22afd60f390</sys_id>
+        <sys_metadata>abfb615a1b7a451062e50ed2cd4bcb3a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>name_of_requestor</sys_name>
+        <sys_package display_value="OneStream Access Request" source="x_apig_onestream_a">90eb291a1b7a451062e50ed2cd4bcb5e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OneStream Access Request">90eb291a1b7a451062e50ed2cd4bcb5e</sys_scope>
+        <sys_scope_delete display_value="">1da919f98d78464da8909a1c0182c449</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_abfb615a1b7a451062e50ed2cd4bcb3a</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_abfb615a1b7a451062e50ed2cd4bcb3a">0d929242339192109b1810919e5c7b62</sys_update_version>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-10-18 19:47:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

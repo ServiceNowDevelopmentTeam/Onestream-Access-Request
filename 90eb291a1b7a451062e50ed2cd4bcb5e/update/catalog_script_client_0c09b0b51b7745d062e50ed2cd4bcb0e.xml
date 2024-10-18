@@ -17,6 +17,7 @@
         <messages/>
         <name>Set requested for title</name>
         <order>0</order>
+        <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
 	g_form.setValue('requested_for_title','Title Not Found');
 	if(newValue != oldValue){
@@ -49,6 +50,7 @@
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>
+        <va_supported>true</va_supported>
         <variable_set/>
         <view/>
     </catalog_script_client>

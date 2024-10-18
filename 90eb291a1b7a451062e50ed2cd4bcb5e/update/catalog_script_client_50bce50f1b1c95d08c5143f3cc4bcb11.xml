@@ -17,6 +17,7 @@
         <messages/>
         <name>Adjust access_service collector size</name>
         <order>100</order>
+        <published_ref/>
         <script><![CDATA[function onLoad(){
     var varName = 'company_access';
     var height = '100'; //Optional
@@ -65,6 +66,7 @@
         <table/>
         <type>onLoad</type>
         <ui_type>0</ui_type>
+        <va_supported>true</va_supported>
         <variable_set display_value="Access Service">98d79bac1b36345062e50ed2cd4bcb27</variable_set>
         <view/>
     </catalog_script_client>

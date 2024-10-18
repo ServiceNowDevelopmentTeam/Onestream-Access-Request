@@ -17,6 +17,7 @@
         <messages/>
         <name>Set Category to Access</name>
         <order/>
+        <published_ref/>
         <script><![CDATA[function onLoad() {
     g_form.setValue("category", "access");
     g_form.setReadOnly("category", true);
@@ -39,6 +40,7 @@
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
         <variable_set display_value="Catalog Category">d2a250c3db810010a81ff36f29961975</variable_set>
         <view/>
     </catalog_script_client>
